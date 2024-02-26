@@ -1,6 +1,5 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
-#include "cmath"
 bool checkPrime(uint64_t value) {
     for (uint64_t i = 2; i <= (value / 2); i++) {
         if (value == 2) {
